@@ -1,0 +1,36 @@
+{
+  "name": "curso-node-js-proyecto-api",
+  "version": "1.0.0",
+  "description": "Código base para hacer una API mediante node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teresamrtnz/curso-node-js-proyecto-api.git"
+  },
+  "author": "teresamrtnz <tereresamrtnz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teresamrtnz/curso-node-js-proyecto-api/issues"
+  },
+  "homepage": "https://github.com/teresamrtnz/curso-node-js-proyecto-api#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
